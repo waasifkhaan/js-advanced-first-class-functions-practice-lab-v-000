@@ -25,6 +25,9 @@ function driversByName(drivers){
     return [...drivers].sort(nameSorter);
 
 }
+function totalRevenue(){
+  
+}
 
 
 
