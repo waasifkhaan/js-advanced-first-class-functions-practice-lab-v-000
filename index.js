@@ -11,3 +11,7 @@ for (const user of drivers ){
   }
 }
 }
+
+function driversByRevenue(){
+  
+}
