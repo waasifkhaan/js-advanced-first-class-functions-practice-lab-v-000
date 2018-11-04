@@ -5,7 +5,7 @@
 function logDriverNames(drivers){
   newArray = [];
 drivers.forEach(
-  newArray.push(driver.name);
+  newArray.push(console.log(driver.name));
 )
 return newArray;
 
