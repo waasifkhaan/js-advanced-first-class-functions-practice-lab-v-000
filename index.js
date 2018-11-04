@@ -1,12 +1,3 @@
-function logDriverNames(drivers){
-  newArray = [];
-drivers.forEach(
-  newArray.push(console.log(driver.name));
-)
-return newArray;
-
-}
-
 const cb = function (el) {
   console.log(el.name);
 
@@ -17,5 +8,3 @@ const logDriverNames = function (drivers, cb) {
     cb(el);
   }
 };
-
-
