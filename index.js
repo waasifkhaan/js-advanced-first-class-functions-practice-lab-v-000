@@ -1,4 +1,4 @@
-const cb = function (el) {
+function cb (el) {
   console.log(el.name);
 
 };
