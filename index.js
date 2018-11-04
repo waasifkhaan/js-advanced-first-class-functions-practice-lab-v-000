@@ -29,7 +29,7 @@ const revenueaggregate = function (agg, el, i, arr) {
   return agg + el.revenue;
 };
 
-function totalRevenue(){
+function totalRevenue(drivers){
   return drivers.reduce(revenueaggregate, 0);
 
 }
