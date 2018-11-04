@@ -12,6 +12,13 @@ for (const user of drivers ){
 }
 }
 
-function driversByRevenue(){
-  
+function driversByRevenue(drivers){
+
 }
+
+const revenueSorter = function (num1, num2) {
+  return num1.revenue - num2.revenue;
+};
+ 
+drivers.sort(revenueSorter);
+// => [2, 3, 5, 7, 13, 17]
