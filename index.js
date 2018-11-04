@@ -7,15 +7,15 @@ return newArray;
 
 }
 
-const callback = function (el) {
+const cb = function (el) {
   console.log(el.name);
-  
+
 };
- 
-const myForEach = function (arr, cb) {
+
+const logDriverNames = function (drivers, cb) {
   for (const el of arr) {
     cb(el, arr.indexOf(el), arr);
   }
 };
- 
+
 myForEach(['Red', 'Yellow', 'Blue'], callback);
