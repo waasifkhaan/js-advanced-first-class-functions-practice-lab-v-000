@@ -17,8 +17,10 @@ function driversByRevenue(drivers){
     return [...drivers].sort(revenueSorter);
 
 }
+const nameSorter = function (num1, num2) {
+  return sort(num1,num2);
 function driversByName(drivers){
-    return [...drivers].sort();
+    return [...drivers].sort(nameSorter);
 
 }
 
