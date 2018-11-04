@@ -19,7 +19,7 @@ function driversByRevenue(drivers){
 }
 
 function driversByName(drivers){
-    return [...drivers].sort(nameSorter);
+    return [...drivers].sort();
 
 }
 
