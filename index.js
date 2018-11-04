@@ -13,8 +13,8 @@ const cb = function (el) {
 };
 
 const logDriverNames = function (drivers, cb) {
-  for (const el of arr) {
-    cb(el, arr.indexOf(el), arr);
+  for (const el of drivers) {
+    cb(el);
   }
 };
 
