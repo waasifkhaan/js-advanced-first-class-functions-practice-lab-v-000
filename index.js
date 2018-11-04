@@ -5,6 +5,6 @@ function cb (el) {
 
 const logDriverNames = function (drivers, cb) {
   for (const el of drivers) {
-    cb(el);
+    return cb(el);
   }
 };
