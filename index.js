@@ -6,7 +6,8 @@ const callback = function (el, i, arr) {
 
 };
 function logDriverNames(drivers){
-  return drivers.map(console.log(driver.name))
+  
+return drivers.forEach(callback);
 
 
 }
