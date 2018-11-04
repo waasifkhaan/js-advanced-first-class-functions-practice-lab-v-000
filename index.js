@@ -4,3 +4,8 @@ function logDriverNames (collection) {
     console.log(user.name);
   }
 }
+function logDriversByHometown(drivers, hometown){
+for (const user of drivers ){
+  user.hometown === hometown;
+}
+}
