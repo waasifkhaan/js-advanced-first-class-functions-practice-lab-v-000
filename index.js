@@ -22,7 +22,7 @@ const nameSorter = function (num1, num2) {
   return num1.name.localeCompare(num2.name) };
 driverOne.name.localeCompare(driverTwo.name)
 function driversByName(drivers){
-    return [...drivers].sort();
+    return [...drivers].sort(nameSorter);
 
 }
 
