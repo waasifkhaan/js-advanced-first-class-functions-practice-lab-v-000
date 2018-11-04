@@ -8,3 +8,9 @@ const logDriverNames = function (drivers, cb) {
     return cb(el);
   }
 };
+
+function logDriverNames (collection) {
+  for (const user of collection) {
+    console.log(user.name);
+  }
+}
