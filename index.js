@@ -25,8 +25,17 @@ function driversByName(drivers){
     return [...drivers].sort(nameSorter);
 
 }
+const revenueaggregate = function (agg, el, i, arr) {
+  return agg + el.revenue;
+};
+ 
+
+
+
+
 function totalRevenue(){
-  
+  return drivers.reduce(revenueaggregate, 0);
+
 }
 
 
