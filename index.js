@@ -18,4 +18,4 @@ const logDriverNames = function (drivers, cb) {
   }
 };
 
-myForEach(['Red', 'Yellow', 'Blue'], callback);
+
