@@ -6,6 +6,8 @@ function logDriverNames (collection) {
 }
 function logDriversByHometown(drivers, hometown){
 for (const user of drivers ){
-  user.hometown === hometown;
+  if (user.hometown === hometown){
+    return user.name
+  }
 }
 }
